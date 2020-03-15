@@ -1,5 +1,4 @@
 language: java
-install: ant deps
-
-script: 
-  -ant test
+jdk:
+ -openjdk11
+script: ./mvnw clean install
