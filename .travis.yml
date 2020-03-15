@@ -1,4 +1,9 @@
+dist: xenial
 language: java
 jdk:
   -oraclejdk10
-  
+install: ant deps
+addons:
+  apt:
+    packages:
+      -ant
