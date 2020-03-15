@@ -1,11 +1,4 @@
 
 language: java
 install: ant deps
-dist: xenial
-jdk:
-  -oraclejdk10
-addons:
-  apt:
-    packages:
-      -ant
-script: ant build
+script: ant main
